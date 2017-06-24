@@ -1,0 +1,117 @@
+.test-1 {
+  background: #31B7D7;
+  background: -webkit-linear-gradient(-90deg, #31B7D7, #EDAC7D);
+  background: linear-gradient(180deg, #31B7D7, #EDAC7D); }
+
+.test-2 {
+  background: #E47D7D;
+  background: -webkit-linear-gradient(left, #E47D7D 0%, #C195D3 50%, #4FB4E8 100%);
+  background: linear-gradient(to right, #E47D7D 0%, #C195D3 50%, #4FB4E8 100%); }
+
+.test-3 {
+  background: #B58234;
+  background: -webkit-linear-gradient(48deg, #B58234 0%, #D2B545 50%, #D7C04D 50.01%, #FFFFFF 100%);
+  background: linear-gradient(42deg, #B58234 0%, #D2B545 50%, #D7C04D 50.01%, #FFFFFF 100%); }
+
+@media (max-width: 728px) {
+  #veil {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    z-index: 999; }
+
+  .intro header {
+    padding: 30px !important; }
+    .intro header nav #close {
+      display: block;
+      text-align: right; }
+      .intro header nav #close img {
+        width: 50px;
+        padding: 30px; }
+    .intro header nav .bars {
+      display: block;
+      margin-top: 20px;
+      transition: 1s; }
+      .intro header nav .bars .bar {
+        width: 35px;
+        margin-bottom: 7px;
+        display: block;
+        height: 3px;
+        background-color: white; }
+      .intro header nav .bars:hover {
+        transform: rotate(180deg); }
+    .intro header nav a {
+      text-decoration: none !important; }
+    .intro header nav ul {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -430px;
+      padding: 30px 0 0 30px;
+      margin: 0;
+      background: rgba(20, 7, 87, 0.5);
+      background: -webkit-linear-gradient(top, rgba(20, 7, 87, 0.5), rgba(237, 28, 36, 0.5));
+      background: linear-gradient(to bottom, rgba(20, 7, 87, 0.5), rgba(237, 28, 36, 0.5));
+      width: calc(100vw - 30px);
+      height: calc(100vh - 30px);
+      max-width: 400px;
+      z-index: 1000;
+      transition: 1s; }
+      .intro header nav ul li {
+        float: none;
+        margin-bottom: 35px;
+        font-size: 18px;
+        font-weight: bold; }
+
+  .portfolio .card, .tour .card {
+    float: none;
+    width: 100%; }
+
+  .tour {
+    text-align: center; }
+    .tour h2, .tour h3 {
+      text-align: center !important; }
+    .tour .cards {
+      text-align: center; }
+    .tour .card {
+      width: 80% !important;
+      margin: 0 auto; }
+      .tour .card img {
+        width: 50%; }
+
+  .join-us {
+    font-size: 10px; }
+    .join-us .editor {
+      margin: 0 !important; }
+
+  button.join-us-now {
+    width: 100% !important;
+    margin: 0; }
+
+  .blog {
+    padding: 20px;
+    text-align: center !important; }
+    .blog * {
+      float: none !important; }
+    .blog .date {
+      margin-bottom: 30px !important; }
+    .blog .content {
+      width: auto !important; }
+
+  body > footer .contact, body > footer .form {
+    float: none !important;
+    width: 100% !important;
+    text-align: center !important; }
+  body > footer h2, body > footer h3 {
+    text-align: center !important; }
+  body > footer .form {
+    margin-top: 100px !important; }
+  body > footer input, body > footer textarea {
+    width: 80% !important; } }
+
+/*# sourceMappingURL=responsivity.css.map */
